@@ -1,0 +1,6 @@
+if SHIELD_CHOCTOPUS44
+
+config ZMK_KEYBOARD_NAME
+    default "choctopus44"
+
+endif
