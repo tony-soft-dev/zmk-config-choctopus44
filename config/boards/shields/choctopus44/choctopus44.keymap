@@ -35,7 +35,7 @@
 
     raise_layer {
       bindings = <
-        &kp RA(RBKT)      &kp RA(N8)        &kp RA(N9)            &kp UP                &kp LS(N8)  &kp LS(N9)                &kp LS(FSLH)          &kp FSLH          &kp UP      &kp RBKT    &kp LS(RBKT)    &kp RA(RBKT)
+        &kp GRAVE      &kp RA(N8)        &kp RA(N9)            &kp UP                &kp LS(N8)  &kp LS(N9)                &kp LS(FSLH)          &kp FSLH          &kp UP      &kp RBKT    &kp LS(RBKT)    &kp RA(RBKT)
         &kp GRAVE   &kp LS(EQUAL)     &kp LEFT              &kp DOWN              &kp RIGHT   &kp EQUAL                 &kp RA(MINUS)         &kp LEFT          &kp DOWN    &kp RIGHT   &kp LS(MINUS)   &kp RA(N4)
         &trans      &kp NON_US_BSLH   &kp LS(NON_US_BSLH)   &kp RA(NON_US_BSLH)   &kp RA(N7)  &kp RA(N0)   &kp C_MUTE   &kp LS(NON_US_HASH)   &kp NON_US_HASH   &kp LS(N5)  &kp LS(N6)  &kp LS(N7)      &trans
                                       &trans                &trans                &mo 3       &trans                    &trans                &trans            &trans      &trans
