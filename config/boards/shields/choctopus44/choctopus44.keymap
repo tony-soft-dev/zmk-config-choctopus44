@@ -21,7 +21,13 @@
     tapping-term-ms = <400>;
 };
 
+
+
 / {
+  combos {
+    #include "combos.dtsi"    
+  }
+
   keymap {
     compatible = "zmk,keymap";
 

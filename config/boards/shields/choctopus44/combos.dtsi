@@ -11,6 +11,7 @@ compatible = "zmk,combos";
 
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
   combo_##NAME { \
+    timeout-ms = <50> \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
@@ -34,4 +35,5 @@ COMBO(copy, &kp LG(C), 21 22, BASE)
 COMBO(paste, &kp LG(V), 21 22 23, BASE)
 COMBO(select_all, &kp LG(A), 20 23, BASE)
 COMBO(caps_word, &caps_word, 31 32, BASE)
+
 
