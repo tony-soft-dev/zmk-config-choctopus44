@@ -7,7 +7,8 @@
       #binding-cells = <0>; \
       wait-ms = <30>; \
       tap-ms = <40>; \
-      bindings = <BINDINGS>; \ };
+      bindings = <BINDINGS>; \ 
+  };
 
       /* Brackets */
 MACRO(parentheses, &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT)
@@ -16,4 +17,4 @@ MACRO(ltgt, &kp LESS_THAN &kp GREATER_THAN &kp LEFT)
 MACRO(braces, &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT)
 
 /* Suspend macOS by holding power key for 1 second */
-MACRO(power, &macro_tap_time 1000 &kp C_POWER)
+//MACRO(power, &macro_tap_time 1000 &kp C_POWER)
