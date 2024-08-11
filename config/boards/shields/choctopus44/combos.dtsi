@@ -19,7 +19,7 @@ compatible = "zmk,combos";
 
 /* Left Handy */
 COMBO(escape, &kp ESC, 2 3, DEFAULT)
-COMBO(tab, &kp TAB, 16 17, DEFAULT)
+COMBO(tab, &kp ESC, 16 17, DEFAULT)
 /* Brackets */
 COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 7 8, DEFAULT)
 COMBO(right_parenthesis, &kp RIGHT_PARENTHESIS, 8 9, DEFAULT)
@@ -42,4 +42,5 @@ COMBO(ltgt, &macro_ltgt, 33 34 35, DEFAULT)
 //COMBO(select_all, &kp LG(A), 20 23, BASE)
 //COMBO(caps_word, &caps_word, 31 32, BASE)
 
-
+/* Random */
+COMBO(quotes, &kp SQT, 21 22, DEFAULT)
