@@ -61,7 +61,7 @@
         &trans    &trans    &trans  &trans   &trans   &trans    &kp C_PLAY_PAUSE      &kp INSERT          &kp HOME        &kp PG_DN   &kp PG_UP   &kp END     &trans
                             &trans  &trans   &trans   &trans                          &trans              &trans       &trans      &trans
       >;
-      sensor-bindings = <BINDING (LG(LS(TAB))) (LG(TAB))>;
+      sensor-bindings = <&inc_dec_kp LG(LS(TAB)) LG(TAB)>;
     };
 
     mouse_layer { 
@@ -91,7 +91,7 @@
         &trans    &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH        &kp C_PLAY_PAUSE    &trans     &trans     &trans      &trans      &trans    &trans
                             &trans  &kp DOT   &kp N0  &kp KP_MINUS                             &trans     &trans     &trans      &trans
       >;
-      sensor-bindings = <BINDING (LC(LS(TAB))) (LC(TAB))>;
+      sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
     };
 
     fun_layer { 
