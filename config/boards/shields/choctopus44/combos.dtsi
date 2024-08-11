@@ -18,15 +18,18 @@ compatible = "zmk,combos";
   };
 
 /* Brackets */
-COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 1 2, DEFAULT)
-COMBO(right_parenthesis, &kp RIGHT_PARENTHESIS, 2 3, DEFAULT)
+COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 7 8, DEFAULT)
+COMBO(right_parenthesis, &kp RIGHT_PARENTHESIS, 8 9, DEFAULT)
 COMBO(parentheses, &macro_parentheses, 1 2 3, DEFAULT)
-COMBO(left_bracket, &kp LEFT_BRACKET, 11 12, DEFAULT)
-COMBO(right_bracket, &kp RIGHT_BRACKET, 12 13, DEFAULT)
-COMBO(brackets, &macro_brackets, 11 12 13, DEFAULT)
-COMBO(less_than, &kp LESS_THAN, 21 22, DEFAULT)
-COMBO(greater_than, &kp GREATER_THAN, 22 23, DEFAULT)
-COMBO(ltgt, &macro_ltgt, 21 22 23, DEFAULT)
+COMBO(left_brace, &kp LEFT_BRACE, 18 19, DEFAULT)
+COMBO(right_brace, &kp RIGHT_BRACE, 19 21, DEFAULT)
+COMBO(braces, &macro_braces, 18 19 20)
+COMBO(left_bracket, &kp LEFT_BRACKET, 31 32, DEFAULT)
+COMBO(right_bracket, &kp RIGHT_BRACKET, 32 33, DEFAULT)
+COMBO(brackets, &macro_brackets, 31 32 33, DEFAULT)
+//COMBO(less_than, &kp LESS_THAN, 21 22, DEFAULT)
+//COMBO(greater_than, &kp GREATER_THAN, 22 23, DEFAULT)
+COMBO(ltgt, &macro_ltgt, 33 34 35, DEFAULT)
 
 ///* Text processing */
 //COMBO(undo, &kp LG(Z), 20 21, BASE)
