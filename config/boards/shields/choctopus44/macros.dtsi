@@ -22,8 +22,8 @@ MACRO(braces, &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT)
 //MACRO(browser_next, &kt LCTRL &kp TAB &kt LCTRL)
 //MACRO(browser_prev, &kt LCTRL &kt LSHIFT &kp TAB &kt LSHIFT &kt LCTRL)
 //MACRO(workspace_next, &kt LGUI &kp TAB &kt LGUI)
-//MACRO(workspace_next, &kt LGUI &kt LSHIFT &kp TAB &kt LSHIFT &kt LGUI)
-
-
+//MACRO(workspace_prev, &kt LGUI &kt LSHIFT &kp TAB &kt LSHIFT &kt LGUI)
+//MACRO(vim_next, &kt LGUI &kp TAB &kt LGUI)
+//MACRO(vim_prev, &kt LGUI &kt LSHIFT &kp TAB &kt LSHIFT &kt LGUI)
 
 
