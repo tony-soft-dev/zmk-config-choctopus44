@@ -48,9 +48,6 @@
       sensor-bindings = <&inc_dec_kp UP DOWN>;
     };
 
-      sensor-bindings = <&inc_dec_kp UP DOWN>;
-    };
-
     media_layer { 
       bindings = <
         &trans    &trans    &trans  &trans   &trans   &trans                          &trans      &trans            &trans        &trans        &trans      &trans
